@@ -1,6 +1,9 @@
-<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-  <rect width="200" height="200" fill="white"/>
-  <path d="M100 30 L110 80 L160 110 L100 120 L40 110 L90 80 Z" fill="black"/>
-  <path d="M70 110 L100 140 L130 110" fill="none" stroke="#D4AF37" stroke-width="4"/>
-  <text x="100" y="180" font-family="serif" font-size="24" text-anchor="middle" fill="#D4AF37">龙吟</text>
+<svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="400" fill="white"/>
+  <!-- Calligraphic Brush Stroke Style -->
+  <path d="M100 200 Q200 50 300 200" fill="none" stroke="black" stroke-width="8" stroke-linecap="round"/>
+  <path d="M180 150 L200 100 L220 150 L200 145 Z" fill="#D4AF37"/>
+  <path d="M100 200 C80 250 150 280 200 280 C250 280 320 250 300 200" fill="none" stroke="#D4AF37" stroke-width="4" stroke-dasharray="10 5"/>
+  <text x="200" y="330" text-anchor="middle" font-family="Brush Script MT, cursive" font-size="50" fill="black">Chant</text>
+  <text x="200" y="380" text-anchor="middle" font-family="FZShuTi" font-size="30" fill="black">龙吟</text>
 </svg>

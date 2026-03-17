@@ -1,6 +1,9 @@
-<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-  <rect width="200" height="200" fill="white"/>
-  <path d="M50 80 Q100 60 150 80 L100 130 Z" fill="#D4AF37"/>
-  <path d="M40 100 L100 150 L160 100" fill="none" stroke="black" stroke-width="6"/>
-  <text x="100" y="180" font-family="serif" font-size="24" text-anchor="middle" font-weight="bold">龙吟</text>
+<svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="400" fill="white"/>
+  <!-- Circular Dragon + Waverider Core -->
+  <circle cx="200" cy="160" r="90" fill="none" stroke="#D4AF37" stroke-width="2" stroke-dasharray="10 5"/>
+  <path d="M140 200 L200 100 L260 200 L200 180 Z" fill="black"/>
+  <path d="M200 100 Q280 100 290 180 T200 250" fill="none" stroke="#D4AF37" stroke-width="4" stroke-linecap="round"/>
+  <text x="200" y="320" text-anchor="middle" font-family="Verdana" font-size="38" font-weight="bold" fill="black">CHANT</text>
+  <text x="200" y="365" text-anchor="middle" font-family="STKaiti" font-size="32" fill="#D4AF37">龙吟</text>
 </svg>

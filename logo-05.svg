@@ -1,6 +1,8 @@
-<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-  <rect width="200" height="200" fill="white"/>
-  <path d="M100 50 L140 130 L100 115 L60 130 Z" fill="none" stroke="black" stroke-width="3"/>
-  <path d="M75 110 L100 85 L125 110" fill="none" stroke="#D4AF37" stroke-width="6"/>
-  <text x="100" y="170" font-family="serif" font-size="24" text-anchor="middle" font-weight="bold">龙吟</text>
+<svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="400" fill="white"/>
+  <!-- Dynamic S-Curve Dragon Body with Waverider Head -->
+  <path d="M200 80 Q300 150 200 220 Q100 290 200 360" fill="none" stroke="#D4AF37" stroke-width="15" stroke-linecap="round" opacity="0.3"/>
+  <path d="M170 110 L200 60 L230 110 L200 100 Z" fill="black"/>
+  <text x="200" y="210" text-anchor="middle" font-family="Futura" font-size="50" font-weight="bold" fill="black">CHANT</text>
+  <text x="200" y="260" text-anchor="middle" font-family="STSong" font-size="35" fill="#D4AF37">龙吟</text>
 </svg>
