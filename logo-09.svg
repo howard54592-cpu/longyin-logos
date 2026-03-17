@@ -1,9 +1,16 @@
-<svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
-  <rect width="400" height="400" fill="white"/>
-  <!-- Calligraphic Brush Stroke Style -->
-  <path d="M100 200 Q200 50 300 200" fill="none" stroke="black" stroke-width="8" stroke-linecap="round"/>
-  <path d="M180 150 L200 100 L220 150 L200 145 Z" fill="#D4AF37"/>
-  <path d="M100 200 C80 250 150 280 200 280 C250 280 320 250 300 200" fill="none" stroke="#D4AF37" stroke-width="4" stroke-dasharray="10 5"/>
-  <text x="200" y="330" text-anchor="middle" font-family="Brush Script MT, cursive" font-size="50" fill="black">Chant</text>
-  <text x="200" y="380" text-anchor="middle" font-family="FZShuTi" font-size="30" fill="black">龙吟</text>
+<svg width="400" height="240" viewBox="0 0 400 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .gold { fill: #D4AF37; }
+      .black { fill: #000000; }
+      .text-zh { font-family: 'PingFang SC', 'Microsoft YaHei', sans-serif; font-weight: bold; font-size: 28px; }
+      .text-en { font-family: Arial, sans-serif; font-size: 14px; letter-spacing: 6px; }
+    </style>
+  </defs>
+  <!-- DF-17 with Wave/Dragon Pattern -->
+  <path class="black" d="M60,100 L340,65 L340,135 Z" />
+  <path d="M100,100 C150,80 200,120 250,100 S350,80 340,100" fill="none" stroke="#D4AF37" stroke-width="2" />
+  <!-- Text -->
+  <text x="200" y="185" text-anchor="middle" class="black text-zh">龙吟</text>
+  <text x="200" y="210" text-anchor="middle" class="black text-en">CHANT</text>
 </svg>

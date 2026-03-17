@@ -1,8 +1,19 @@
-<svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
-  <rect width="400" height="400" fill="white"/>
-  <!-- Dynamic S-Curve Dragon Body with Waverider Head -->
-  <path d="M200 80 Q300 150 200 220 Q100 290 200 360" fill="none" stroke="#D4AF37" stroke-width="15" stroke-linecap="round" opacity="0.3"/>
-  <path d="M170 110 L200 60 L230 110 L200 100 Z" fill="black"/>
-  <text x="200" y="210" text-anchor="middle" font-family="Futura" font-size="50" font-weight="bold" fill="black">CHANT</text>
-  <text x="200" y="260" text-anchor="middle" font-family="STSong" font-size="35" fill="#D4AF37">龙吟</text>
+<svg width="400" height="240" viewBox="0 0 400 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .gold { fill: #D4AF37; }
+      .black { fill: #000000; }
+      .text-zh { font-family: 'PingFang SC', 'Microsoft YaHei', sans-serif; font-weight: bold; font-size: 28px; }
+      .text-en { font-family: Arial, sans-serif; font-size: 14px; letter-spacing: 6px; }
+    </style>
+  </defs>
+  <!-- DF-17 Shape -->
+  <path class="black" d="M60,100 L340,65 L340,135 Z" />
+  <!-- Dragon Element: Horned Nose -->
+  <path class="gold" d="M60,100 L100,90 L100,110 Z" />
+  <path class="gold" d="M95,90 L110,75 L115,85 Z" />
+  <path class="gold" d="M95,110 L110,125 L115,115 Z" />
+  <!-- Text -->
+  <text x="200" y="185" text-anchor="middle" class="black text-zh">龙吟</text>
+  <text x="200" y="210" text-anchor="middle" class="black text-en">CHANT</text>
 </svg>
