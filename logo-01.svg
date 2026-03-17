@@ -1,19 +1,19 @@
-<svg width="400" height="240" viewBox="0 0 400 240" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <style>
-      .gold { fill: #D4AF37; }
-      .black { fill: #000000; }
-      .text-zh { font-family: 'PingFang SC', 'Microsoft YaHei', sans-serif; font-weight: bold; font-size: 28px; }
-      .text-en { font-family: Arial, sans-serif; font-size: 14px; letter-spacing: 6px; }
-    </style>
-  </defs>
-  <!-- DF-17 Wedge Shape Body -->
-  <path class="black" d="M60,100 L340,65 L340,135 Z" />
-  <!-- Dragon Element: Dragon Eye at the Nose -->
-  <circle class="gold" cx="95" cy="100" r="4" />
-  <!-- Waverider Wing Features -->
-  <path class="gold" d="M180,85 L320,60 L320,140 L180,115 Z" fill-opacity="0.8" />
+<svg width="600" height="160" viewBox="0 0 600 160" xmlns="http://www.w3.org/2000/svg">
+  <rect width="600" height="160" fill="white"/>
+  <!-- DF-17 Body - elongated wedge -->
+  <path fill="#000000" d="M30,80 L450,50 L450,110 Z"/>
+  <!-- Forward-swept wings (signature DF-17 feature) -->
+  <path fill="#D4AF37" d="M280,55 L380,40 L420,35 L420,95 L380,90 L280,105 Z"/>
+  <!-- Rear fins -->
+  <path fill="#D4AF37" d="M430,55 L460,45 L460,85 L430,75 Z"/>
+  <!-- Dragon head at nose (roaring) -->
+  <path fill="#D4AF37" d="M30,80 L60,70 L55,80 L60,90 L30,80 Z"/>
+  <!-- Dragon open mouth (roaring) -->
+  <path fill="none" stroke="#D4AF37" stroke-width="2" d="M30,80 Q15,80 5,75 M30,80 Q15,80 5,85"/>
+  <!-- Sound waves (吟的效果) -->
+  <path fill="none" stroke="#D4AF37" stroke-width="2" d="M15,75 Q5,80 15,85"/>
+  <path fill="none" stroke="#D4AF37" stroke-width="1.5" d="M8,72 Q-5,80 8,88"/>
   <!-- Text -->
-  <text x="200" y="185" text-anchor="middle" class="black text-zh">龙吟</text>
-  <text x="200" y="210" text-anchor="middle" class="black text-en">CHANT</text>
+  <text x="300" y="135" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" letter-spacing="8" fill="#000000">CHANT</text>
+  <text x="300" y="155" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="16" fill="#D4AF37">龙吟</text>
 </svg>
