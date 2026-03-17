@@ -1,0 +1,6 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <rect width="200" height="200" fill="white"/>
+  <path d="M100 50 L140 130 L100 115 L60 130 Z" fill="none" stroke="black" stroke-width="3"/>
+  <path d="M75 110 L100 85 L125 110" fill="none" stroke="#D4AF37" stroke-width="6"/>
+  <text x="100" y="170" font-family="serif" font-size="24" text-anchor="middle" font-weight="bold">龙吟</text>
+</svg>
