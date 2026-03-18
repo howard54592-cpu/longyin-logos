@@ -1,0 +1,19 @@
+<svg width="600" height="160" viewBox="0 0 600 160" xmlns="http://www.w3.org/2000/svg">
+  <rect width="600" height="160" fill="white"/>
+  <!-- DF-17 Body -->
+  <path fill="#000000" d="M30,80 L450,50 L450,110 Z"/>
+  <!-- Forward-swept wings -->
+  <path fill="#D4AF37" d="M260,58 L370,32 L430,28 L430,98 L370,92 L260,108 Z"/>
+  <!-- Rear fins -->
+  <path fill="#D4AF37" d="M430,55 L465,42 L465,88 L430,75 Z"/>
+  <!-- Dragon head - stylized geometric -->
+  <polygon points="30,80 55,65 55,95" fill="#D4AF37"/>
+  <!-- Dragon whisker trails (龙须) representing 吟 -->
+  <path fill="none" stroke="#D4AF37" stroke-width="2" d="M55,70 Q80,50 100,55"/>
+  <path fill="none" stroke="#D4AF37" stroke-width="2" d="M55,90 Q80,110 100,105"/>
+  <path fill="none" stroke="#D4AF37" stroke-width="1.5" d="M55,80 Q75,65 110,70"/>
+  <path fill="none" stroke="#D4AF37" stroke-width="1.5" d="M55,80 Q75,95 110,90"/>
+  <!-- Text -->
+  <text x="300" y="135" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" letter-spacing="8" fill="#000000">CHANT</text>
+  <text x="300" y="155" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="16" fill="#D4AF37">龙吟</text>
+</svg>

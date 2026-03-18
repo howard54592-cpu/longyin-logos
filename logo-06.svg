@@ -1,0 +1,22 @@
+<svg width="600" height="160" viewBox="0 0 600 160" xmlns="http://www.w3.org/2000/svg">
+  <rect width="600" height="160" fill="white"/>
+  <!-- DF-17 Body -->
+  <path fill="#000000" d="M30,80 L450,50 L450,110 Z"/>
+  <!-- Forward-swept wings -->
+  <path fill="#D4AF37" d="M270,55 L390,25 L440,20 L440,95 L390,90 L270,105 Z"/>
+  <!-- Rear fins -->
+  <path fill="#D4AF37" d="M430,55 L468,40 L468,90 L430,75 Z"/>
+  <!-- Dragon - integrated along the body (龙形弹体) -->
+  <!-- Dragon body curves along the missile -->
+  <path fill="none" stroke="#D4AF37" stroke-width="4" d="M80,80 Q150,50 200,80 Q250,110 300,80"/>
+  <!-- Dragon head at nose -->
+  <ellipse cx="50" cy="80" rx="12" ry="8" fill="#D4AF37"/>
+  <!-- Eyes -->
+  <circle cx="55" cy="77" r="1.5" fill="#000000"/>
+  <circle cx="55" cy="83" r="1.5" fill="#000000"/>
+  <!-- Roaring mouth lines -->
+  <path fill="none" stroke="#D4AF37" stroke-width="2" d="M40,80 L30,75 M40,80 L30,85"/>
+  <!-- Text -->
+  <text x="300" y="135" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" letter-spacing="8" fill="#000000">CHANT</text>
+  <text x="300" y="155" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="16" fill="#D4AF37">龙吟</text>
+</svg>

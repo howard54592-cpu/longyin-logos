@@ -1,0 +1,24 @@
+<svg width="600" height="160" viewBox="0 0 600 160" xmlns="http://www.w3.org/2000/svg">
+  <rect width="600" height="160" fill="white"/>
+  <!-- DF-17 Body -->
+  <path fill="#000000" d="M30,80 L450,50 L450,110 Z"/>
+  <!-- Forward-swept wings - classic DF-17 -->
+  <path fill="#D4AF37" d="M260,58 L380,30 L430,25 L430,100 L380,94 L260,110 Z"/>
+  <!-- Rear fins -->
+  <path fill="#D4AF37" d="M430,55 L465,42 L465,88 L430,75 Z"/>
+  <!-- Dragon at nose - simplified geometric -->
+  <polygon points="30,80 50,70 50,90" fill="#D4AF37"/>
+  <!-- Dragon eyes -->
+  <circle cx="42" cy="75" r="2" fill="#000000"/>
+  <circle cx="42" cy="85" r="2" fill="#000000"/>
+  <!-- Roaring mouth effect (吟) - radiating lines -->
+  <line x1="25" y1="80" x2="10" y2="70" stroke="#D4AF37" stroke-width="2"/>
+  <line x1="25" y1="80" x2="5" y2="80" stroke="#D4AF37" stroke-width="2"/>
+  <line x1="25" y1="80" x2="10" y2="90" stroke="#D4AF37" stroke-width="2"/>
+  <line x1="18" y1="80" x2="0" y2="65" stroke="#D4AF37" stroke-width="1.5"/>
+  <line x1="18" y1="80" x2="-5" y2="80" stroke="#D4AF37" stroke-width="1.5"/>
+  <line x1="18" y1="80" x2="0" y2="95" stroke="#D4AF37" stroke-width="1.5"/>
+  <!-- Text -->
+  <text x="300" y="135" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" letter-spacing="8" fill="#000000">CHANT</text>
+  <text x="300" y="155" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="16" fill="#D4AF37">龙吟</text>
+</svg>

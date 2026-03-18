@@ -1,0 +1,22 @@
+<svg width="600" height="160" viewBox="0 0 600 160" xmlns="http://www.w3.org/2000/svg">
+  <rect width="600" height="160" fill="white"/>
+  <!-- DF-17 Body -->
+  <path fill="#000000" d="M30,80 L450,50 L450,110 Z"/>
+  <!-- Forward-swept wings - detailed -->
+  <path fill="#D4AF37" d="M280,55 L400,28 L440,24 L440,96 L400,92 L280,105 Z"/>
+  <!-- Rear fins -->
+  <path fill="#D4AF37" d="M430,55 L465,42 L465,88 L430,75 Z"/>
+  <!-- Dragon head at nose - fierce look -->
+  <path fill="#D4AF37" d="M30,80 L60,68 L58,80 L60,92 L30,80 Z"/>
+  <!-- Eyes - fierce -->
+  <polygon points="45,72 50,68 55,72 50,76" fill="#000000"/>
+  <polygon points="45,88 50,84 55,88 50,92" fill="#000000"/>
+  <!-- Open mouth showing fangs -->
+  <path fill="#000000" d="M30,80 L45,78 L40,80 L45,82 Z"/>
+  <!-- Sound waves (吟) - energetic bursts -->
+  <path fill="none" stroke="#D4AF37" stroke-width="2" d="M20,80 L5,70 L5,90 L20,80"/>
+  <path fill="none" stroke="#D4AF37" stroke-width="1.5" d="M12,80 L-5,65 L-5,95 L12,80"/>
+  <!-- Text -->
+  <text x="300" y="135" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" letter-spacing="8" fill="#000000">CHANT</text>
+  <text x="300" y="155" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="16" fill="#D4AF37">龙吟</text>
+</svg>
